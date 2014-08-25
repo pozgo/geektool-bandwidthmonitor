@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>GroupName</key>
+<string>staff</string>
+<key>Label</key>
+<string>com.bwmonitor.rrdgraph_en0</string>
+<key>ProgramArguments</key>
+<array>
+    <string>/bin/sh</string>
+    <string>/Users/przemek/scripts/geektool/bwmonitor/create_graph_en0.sh</string>
+</array>
+<key>RunAtLoad</key>
+<true/>
+<key>ServiceDescription</key>
+<string>rrdgraph</string>
+<key>StartInterval</key>
+<integer>15</integer>
+<key>UserName</key>
+<string>przemek</string>
+<key>WorkingDirectory</key>
+<string>/Users/przemek/scripts/geektool/bwmonitor</string>
+</dict>
+</plist>
