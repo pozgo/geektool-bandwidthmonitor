@@ -15,8 +15,8 @@
 --color BACK#ffffff00 \
 --color CANVAS#ffffff00 \
 --color FONT#ffffff \
-DEF:inbyts=rrd_db_en0.rrd:inbyts:MAX \
-DEF:oubyts=rrd_db_en0.rrd:oubyts:MAX \
+DEF:inbyts=bwusage_en0_db.rrd:inbyts:MAX \
+DEF:oubyts=bwusage_en0_db.rrd:oubyts:MAX \
 CDEF:IBNone=inbyts,0,0,LIMIT,UN,UNKN,INF,IF \
 CDEF:OBNone=oubyts,0,0,LIMIT,UN,UNKN,INF,IF \
 AREA:inbyts#FFFFFF:"inBytes" \
