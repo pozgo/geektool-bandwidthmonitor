@@ -3,7 +3,7 @@
 -w 245 -h 80 -a PNG \
 --start -1800 --end now \
 --font DEFAULT:7:Menlo \
---title "Lan Bandwidth" \
+--title "Network Bandwidth" \
 --lower-limit 0 \
 --upper-limit MAX \
 --right-axis 1:0 \
